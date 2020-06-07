@@ -1,0 +1,57 @@
+body{
+  background-color: blue;
+  width: 100%;
+
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  /* background-color: red; */
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.tableHead {
+  border: 1px solid violet;
+  background-color: violet;
+  margin: 10px;
+}
+
+ul {
+  /* text-decoration: none; */
+  list-style-type: none;
+  padding-inline-start: 0px;
+
+}
+
+.orange {
+  background-color: orange;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+
+
+
