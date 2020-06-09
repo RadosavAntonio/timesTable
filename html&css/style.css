@@ -1,11 +1,11 @@
 body{
-  background-color: blue;
+  background-color: #A0C4FF;
   width: 100%;
 
 }
 
 h1 {
-  color: yellow;
+  color: #FFFFFC;
   text-align: center;
 }
 
@@ -17,41 +17,34 @@ h1 {
 }
 
 .grid-container > div {
-  /* background-color: red; */
-  border: 1px solid black;
+  border: 5px solid white;
   text-align: center;
   font-size: 30px;
 }
 
-.tableHead {
-  border: 1px solid violet;
-  background-color: violet;
+.grid-numbers {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* grid-gap: 10px; */
+  padding: 5%;
+}
+
+.grid-numbers > div {
+  text-align: right;
+  font-size: 30px;
+}
+
+.cornflowerLilac > h3 {
+    color: white;
+}
+
+.cornflowerLilac {
+  color: #FFADAD;
+  background-color: #FDFFB6;
+}
+
+.tableHead-cornflowerLilac {
+  background-color: #FFADAD;
   margin: 10px;
+  padding: 10px;
 }
-
-ul {
-  /* text-decoration: none; */
-  list-style-type: none;
-  padding-inline-start: 0px;
-
-}
-
-.orange {
-  background-color: orange;
-}
-
-.pink {
-  background-color: pink;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.cyan {
-  background-color: cyan;
-}
-
-
-
-
